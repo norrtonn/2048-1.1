@@ -4,7 +4,7 @@
 #include <ctime>
 #include <algorithm>
 
-// Функции для цветов плиток и текста 
+// Цвета плиток и текста 
 sf::Color tileColor(int value) {
     switch (value) {
     case 2:    return sf::Color(238, 228, 218);
